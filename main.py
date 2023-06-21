@@ -5,7 +5,7 @@ import subprocess
 st.write("""## TTS anything
          
          """)
-txt = st.text_area("Write or paste a text bellow to convert it to audio")
+txt = st.text_area("Write or paste a text bellow to convert it to audio", height=300)
 choice_lang =  ['pt-BR-AntonioNeural', 'en-US-AriaNeural', 'it-IT-DiegoNeural', 'es-AR-ElenaNeural', 'fr-FR-HenriNeural']
 
 # Create a dropdown menu using selectbox
