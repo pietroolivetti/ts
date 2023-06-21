@@ -1,6 +1,5 @@
 import streamlit as st
 import edge_tts
-from IPython.display import Audio
 import subprocess
 
 st.write("""## TTS anything
@@ -18,4 +17,3 @@ if st.button('Convert to audio'):
     subprocess.run(['edge-tts', '--voice', selected_lang, '--text', txt, '--write-media', 'test.mp3'])
     st.audio('test.mp3')
 
-#Audio('test.mp3')
