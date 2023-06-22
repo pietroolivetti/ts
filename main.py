@@ -19,4 +19,4 @@ selected_speed = st.selectbox('Speed: ', choice_speed)
 
 if st.button('Convert to audio'):
     subprocess.run(['edge-tts', '--rate=' + choice_speed[selected_speed] ,'--voice', choice_lang[selected_lang], '--text', txt, '--write-media', 'test.mp3'])
-    audio = st.audio('test.mp3')
+    st.audio('test.mp3')
