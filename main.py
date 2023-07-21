@@ -7,7 +7,7 @@ st.write("""## TTS anything
          """)
 txt = st.text_area("Write or paste a text bellow to convert it to audio", height=300)
 
-choice_lang =  {'Português': 'pt-BR-AntonioNeural', 'English': 'en-US-AriaNeural', 'Italiano': 'it-IT-DiegoNeural', 'Español': 'es-AR-ElenaNeural', 'Français': 'fr-FR-HenriNeural', 'Deutsch': 'de-DE-KillianNeural', 'Polski': 'pl-PL-ZofiaNeural'}
+choice_lang =  {'Português': 'pt-BR-AntonioNeural', 'English': 'en-US-AriaNeural', 'Italiano': 'it-IT-DiegoNeural', 'Español': 'es-AR-ElenaNeural', 'Français': 'fr-FR-HenriNeural', 'Deutsch': 'de-DE-KillianNeural', 'Polski': 'pl-PL-ZofiaNeural', 'Русский': 'ru-RU-SvetlanaNeural'}
 
 # Create a dropdown menu using selectbox
 selected_lang = st.selectbox('Select a language:', choice_lang, index=0)
