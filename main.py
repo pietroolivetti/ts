@@ -1,6 +1,6 @@
 import streamlit as st
 import edge_tts
-import edge-tts
+#import edge-tts
 import subprocess
 
 st.write("""## TTS anything
